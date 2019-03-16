@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'bundler/setup'
 require 'twilio-ruby'
 
 account_sid = 'AC91aca10988eca0112a80b0983c9d0157'
