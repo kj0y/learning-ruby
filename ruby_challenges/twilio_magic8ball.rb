@@ -2,8 +2,8 @@ require 'rubygems'
 require 'bundler/setup'
 require 'twilio-ruby'
 
-account_sid = 'AC91aca10988eca0112a80b0983c9d0157'
-auth_token = '64535f4ea52ad949174aecb8045c0d47'
+account_sid = 'put my account_sid here from twilio dashboard'
+auth_token = 'put my auth_token here from twilio dashboard'
  
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
